@@ -49,11 +49,10 @@ const skillsSection = {
   subTitle: "NEW GRAD FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+      "⚡ Software Engineer 1 @ NCR Voyix on the Fuel Convenience Retail Team"),
+    emoji("⚡ Passionate about learning new technologies such as Cloud Computing and AI"),
     emoji(
-      "⚡ Integration of third party services such as Firebase / AWS / Digital Ocean"
+      "⚡ Constantly learning new things!"
     )
   ],
 
@@ -128,11 +127,11 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Backend", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Front-End Design",
       progressPercentage: "70%"
     },
     {
@@ -150,28 +149,30 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "NCR Voyix",
+      companylogo: require("./assets/images/voyix_logo.png"),
+      date: "February 2024 – Present",
+      desc: "Software Engineer 1 @ NCR Voyix on the Fuel and Convenience Retail Team",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Leveraged code quality technologies such as SonarQube to identify and resolve critical bugs, code smells,and security vulnerabilities within a large-scale C++ enterprise codebase",
+        "Conducted comprehensive code analysis, leading to the detection and remediation of 500+ code issues, resulting in a 30% reduction in technical debt, enhancing overall code quality and maintainability",
+        "Diagnosed and resolved complex bugs reported by large corporate clients in NCR Voyix’s point of salesystems, ensuring minimal downtime and operational efficiency",
+        "Utilized virtual machines and site lab environments to accurately reproduce and troubleshootcustomer-reported bugs, ensuring thorough analysis and effective solutions"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
       role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      company: "NCR Corporation",
+      companylogo: require("./assets/images/NCR_Corporation_logo.svg.png"),
+      date: "Summer of 2022 and 2023",
+      desc: "Software Engineer Intern on the Application Security Team and Fuel and Convenience Retail Team",
+      descBullets: [
+        "Developed a full-stack AI chatbot application using React and Python that streamlines shoppers’ experiences at NCR locations",
+        "Deployed an open source large language model to a server with threading and TCP to manage efficient communication and concurrent processing, boosting overall performance by 40%",
+        "Integrated NCR’s API functions to provide real-time product information, availability, and pricing, enhancing the chatbot’s utility and user experience",
+        "Curated over a dozen NCR React components and pages using Material UI components following industry standard Material Design system guidelines and principles",
+        "Utilized Linux, bash scripts, and Docker to containerize the NIST Statistical Test Suite used to test the validity and security of random number generators in production code in the case of a PCI – DSS audit"
+      ]
     }
   ]
 };
@@ -188,27 +189,27 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Some projects I have worked on for real clients and personal development",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/carries-closet.webp"),
+      projectName: "Carrie's Closet",
+      projectDesc: "Built and deployed a cross platform mobile application for a non-profit organization that provides clothes and hygiene products to hundreds of at-risk children in 80+ schools in the Georgia public school system",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://carriesclosetofga.org/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/aws.png"),
+      projectName: "Personal Cloud Portfolio",
+      projectDesc: "My personal journey learning about Cloud Services like AWS and creating my own personal porfolio website",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Read More",
           url: "http://nextu.se/"
         }
       ]
@@ -260,22 +261,8 @@ const achievementSection = {
         }
       ]
     },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -321,9 +308,9 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com",
+    "Want to discuss a project or reach out for opportunities? My inbox is open!",
+  number: "",
+  email_address: "ephraim.kwon@gmail.com",
 };
 
 // Twitter Section
