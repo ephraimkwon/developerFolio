@@ -4,6 +4,7 @@ import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import StyleContext from "../../contexts/StyleContext";
 
+// TODO : Write code that calls Lambda function and get view count and show it in the footer
 export default function Footer() {
   const {isDark} = useContext(StyleContext);
   return (
@@ -18,7 +19,11 @@ export default function Footer() {
             developerFolio
           </a>
         </p>
+        <p className={isDark ? "dark mode footer-text": "footer-text"}>
+          {emoji("View Count: {data}👁️")}
+        </p>
       </div>
     </Fade>
   );
+
 }
