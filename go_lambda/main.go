@@ -63,6 +63,9 @@ func handler() (views int, err error) {
 	// Increment views by 1
 	item.Views++
 
+	// Update existing value of views by putting in the new incremented value
+	// TODO : Clean up code to make it more succinct by implementing marshalling/unmarshalling
+	// for operations involving json puts/gets
 	_, err = svc.PutItem(context.TODO(), &dynamodb.PutItemInput{
 		TableName: aws.String(tableName),
 		Item: map[string]types.AttributeValue{
