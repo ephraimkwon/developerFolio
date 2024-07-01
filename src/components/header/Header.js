@@ -1,8 +1,9 @@
-import React, {useContext} from "react";
+import React, {useEffect, useState, useContext} from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
+import emoji from "react-easy-emoji";
 import {
   greeting,
   workExperiences,
@@ -15,12 +16,27 @@ import {
 
 function Header() {
   const {isDark} = useContext(StyleContext);
+  const [loading, setLoading] = useState(false);
+  const [views, setViews] = useState([]);
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
   const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
+  useEffect(() => {
+    const loadViewCount = async () => {
+      // Show a loading icon until fetch completes
+      setLoading(true);
+      // Fetch response from Lambda
+      const response = await fetch("https://p3qm5i7wqxn2cc3dffe7oi5vwu0ckili.lambda-url.us-east-2.on.aws/");
+      // Store data form response into views
+      const views = await response.json()
+      setViews(views);
+      setLoading(false);
+    }
+    loadViewCount();
+  }, [])
 
   return (
     <Headroom>
@@ -77,6 +93,15 @@ function Header() {
             <a>
               <ToggleSwitch />
             </a>
+          </li>
+          <li>
+              <a>
+                View Count: 
+                {
+                  loading ? ("...") : (" " + views)
+                }
+                {emoji("👀")}
+              </a>
           </li>
         </ul>
       </header>
