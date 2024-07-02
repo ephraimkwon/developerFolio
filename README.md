@@ -1,5 +1,6 @@
 # My Software Developer Folio ⚡️
 
+This repository hosts the code for my personal portfolio hosted on the AWS Cloud. It is my take on completing the AWS Cloud Resume Challenge.
 
 ## Technologies Used 
 
