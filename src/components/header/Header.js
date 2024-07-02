@@ -37,7 +37,7 @@ function Header() {
     }
     loadViewCount();
   }, [])
-
+  // TODO: Add spinner animation for when page is fetching view count
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
