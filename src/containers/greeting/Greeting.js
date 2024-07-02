@@ -41,7 +41,9 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href={require("./Ephraim_Kwon_Resume.pdf")}
+                    href={"https://ephraim-kwon-resume-bucket.s3.us-east-2.amazonaws.com/Ephraim_Kwon_Resume.pdf"}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     download="Ephraim_Kwon_Resume.pdf"
                     className="download-link-button"
                   >
