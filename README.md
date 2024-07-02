@@ -1,5 +1,6 @@
 # My Software Developer Folio ⚡️
 
+This repository hosts the code for my personal portfolio hosted on the AWS Cloud. It is my take on completing the AWS Cloud Resume Challenge (https://cloudresumechallenge.dev/docs/the-challenge/aws/). I used ReactJS, SCSS, and Go to complete the challenge.
 
 ## Technologies Used 
 
@@ -13,4 +14,4 @@
 
 ## Sources
 
-This portfolio was built based off https://github.com/saadpasta/developerFolio?tab=readme-ov-file open source developer portfolio template
+This portfolio is based off https://github.com/saadpasta/developerFolio?tab=readme-ov-file open source developer portfolio template
