@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.dd871e5b.css",
-    "main.js": "/static/js/main.8aaa9a20.js",
+    "main.js": "/static/js/main.70c38510.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/static/js/487.7ae187c0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.6d303ed0.chunk.js": "/static/js/990.6d303ed0.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/Ephraim_Kwon_Resume.pdf": "/static/media/Ephraim_Kwon_Resume.5a52c30abaf00d9acf47.pdf",
+    "static/media/Ephraim_Kwon_Resume.pdf": "/static/media/Ephraim_Kwon_Resume.77ec92d158fbfeb60e34.pdf",
     "static/media/Georgia_Tech_seal.svg.png": "/static/media/Georgia_Tech_seal.svg.9ab3960b1765cb9f6f96.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/carries-closet.webp": "/static/media/carries-closet.9b4a5dea9c0b0b40b030.webp",
@@ -21,7 +21,7 @@
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/index.html",
     "main.dd871e5b.css.map": "/static/css/main.dd871e5b.css.map",
-    "main.8aaa9a20.js.map": "/static/js/main.8aaa9a20.js.map",
+    "main.70c38510.js.map": "/static/js/main.70c38510.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/static/js/487.7ae187c0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -29,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.dd871e5b.css",
-    "static/js/main.8aaa9a20.js"
+    "static/js/main.70c38510.js"
   ]
 }
