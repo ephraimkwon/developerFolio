@@ -2,8 +2,8 @@ name: Upload Build Files to S3
 
 on:
   push:
-    branches:
-    - master
+    paths:
+    - build/**
 
 jobs:
   deploy:
