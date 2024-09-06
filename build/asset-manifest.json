@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.dd871e5b.css",
-    "main.js": "/static/js/main.b963c29b.js",
+    "main.js": "/static/js/main.b3f17f80.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/static/js/487.7ae187c0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.6d303ed0.chunk.js": "/static/js/990.6d303ed0.chunk.js",
+    "static/media/att.jpg": "/static/media/att.2a1d029e5f4ae9632693.jpg",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Georgia_Tech_seal.svg.png": "/static/media/Georgia_Tech_seal.svg.9ab3960b1765cb9f6f96.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -20,7 +21,7 @@
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/index.html",
     "main.dd871e5b.css.map": "/static/css/main.dd871e5b.css.map",
-    "main.b963c29b.js.map": "/static/js/main.b963c29b.js.map",
+    "main.b3f17f80.js.map": "/static/js/main.b3f17f80.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/static/js/487.7ae187c0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -28,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.dd871e5b.css",
-    "static/js/main.b963c29b.js"
+    "static/js/main.b3f17f80.js"
   ]
 }
