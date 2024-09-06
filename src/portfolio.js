@@ -23,7 +23,7 @@ const greeting = {
   username: "Ephraim Kwon",
   title: "Hi, I'm Ephraim",
   subTitle: emoji(
-    "A passionate New Grad Full Stack Software Developer 🚀 I have experience working with Python / Javascript / ReactJS / Flutter / Docker and many other cool technologies and frameworks!"
+    "A passionate New Grad Full Stack Software Developer 🚀 I have experience working with Python / Java / ReactJS / Flutter / Docker and many other cool technologies and frameworks!"
   ),
   resumeLink:
     "Ephraim_Kwon_Resume.pdf", // Set to empty to hide the button
@@ -49,8 +49,8 @@ const skillsSection = {
   subTitle: "NEW GRAD FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Software Engineer 1 @ NCR Voyix on the Fuel Convenience Retail Team"),
-    emoji("⚡ Passionate about learning new technologies such as Cloud Computing and AI"),
+      "⚡ Sr Specialist Member of Technical Staff @ AT&T"),
+    emoji("⚡ Passionate about learning new technologies such as Cloud Computing, high-concurrency bulk data processing, and AI"),
     emoji(
       "⚡ Constantly learning new things!"
     )
@@ -148,10 +148,22 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Sr Specialist Member of Technical Staff",
+      company: "AT&T Labs",
+      companylogo: require("./assets/images/att.jpg"),
+      date: "September 2024 – Present",
+      desc: "Member of Technical Staff @ AT&T Labs",
+      descBullets: [
+        "Built high-concurrency bulk data processing systems using multithreading and real-time socket programming using Java",
+        "Utilized big data tools such as Kafka, NoSQL databases, Snowflake, and Oracle SQL in order to process and store large volumes of data",
+        "Wrote Python/Perl/Shell scripts to automate processes"
+      ]
+    },
+    {
       role: "Software Engineer",
       company: "NCR Voyix",
       companylogo: require("./assets/images/voyix_logo.png"),
-      date: "February 2024 – Present",
+      date: "February 2024 – September 2024",
       desc: "Software Engineer 1 @ NCR Voyix on the Fuel and Convenience Retail Team",
       descBullets: [
         "Leveraged code quality technologies such as SonarQube to identify and resolve critical bugs, code smells,and security vulnerabilities within a large-scale C++ enterprise codebase",
