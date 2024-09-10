@@ -23,7 +23,7 @@ const greeting = {
   username: "Ephraim Kwon",
   title: "Hi, I'm Ephraim",
   subTitle: emoji(
-    "A passionate New Grad Full Stack Software Developer 🚀 I have experience working with Python / Java / ReactJS / Go / Docker and many other cool technologies and frameworks!"
+    "A curious New Grad Full Stack Software Developer 🚀 I have experience working with Python / Java / ReactJS / Go / Docker and many other cool technologies and frameworks!"
   ),
   resumeLink:
     "Ephraim_Kwon_Resume.pdf", // Set to empty to hide the button
@@ -152,11 +152,11 @@ const workExperiences = {
       company: "AT&T Labs",
       companylogo: require("./assets/images/att.png"),
       date: "September 2024 – Present",
-      desc: "Member of Technical Staff @ AT&T Labs",
+      desc: "Sr Specialist MTS @ AT&T Labs",
       descBullets: [
-        "Built high-concurrency bulk data processing systems using multithreading and real-time socket programming using Java",
-        "Utilized big data tools such as Kafka, NoSQL databases, Snowflake, and Oracle SQL in order to process and store large volumes of data",
-        "Wrote Python/Perl/Shell scripts to automate processes"
+        "Building high-concurrency bulk data processing systems using multithreading and real-time socket programming using Java",
+        "Utilizing big data tools such as Kafka, NoSQL databases, Snowflake, and Oracle SQL in order to process and store large volumes of data",
+        "Writing Python/Perl/Shell scripts to automate processes"
       ]
     },
     {
@@ -222,7 +222,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Read More",
-          url: "http://nextu.se/"
+          url: "https://cloudresumechallenge.dev/docs/the-challenge/aws/"
         }
       ]
     }
