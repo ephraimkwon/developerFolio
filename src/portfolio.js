@@ -23,7 +23,7 @@ const greeting = {
   username: "Ephraim Kwon",
   title: "Hi, I'm Ephraim",
   subTitle: emoji(
-    "A passionate New Grad Full Stack Software Developer 🚀 I have experience working with Python / Java / ReactJS / Flutter / Docker and many other cool technologies and frameworks!"
+    "A passionate New Grad Full Stack Software Developer 🚀 I have experience working with Python / Java / ReactJS / Go / Docker and many other cool technologies and frameworks!"
   ),
   resumeLink:
     "Ephraim_Kwon_Resume.pdf", // Set to empty to hide the button
@@ -150,7 +150,7 @@ const workExperiences = {
     {
       role: "Sr Specialist Member of Technical Staff",
       company: "AT&T Labs",
-      companylogo: require("./assets/images/att.jpg"),
+      companylogo: require("./assets/images/att.png"),
       date: "September 2024 – Present",
       desc: "Member of Technical Staff @ AT&T Labs",
       descBullets: [
@@ -292,7 +292,7 @@ const contactInfo = {
   email_address: "ephraim.kwon@gmail.com",
 };
 
-const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
